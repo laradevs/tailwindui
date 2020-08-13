@@ -75,6 +75,36 @@ Route::view('/tailwind/ui/page-examples/page-1', 'tailwind.ui.page-examples.page
 Route::view('/tailwind/ui/page-examples/page-2', 'tailwind.ui.page-examples.page-2');
 Route::view('/tailwind/ui/page-examples/page-3', 'tailwind.ui.page-examples.page-3');
 
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-1', 'tailwind.ui.marketing.page-sections.hero-sections-1');
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-2', 'tailwind.ui.marketing.page-sections.hero-sections-2');
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-3', 'tailwind.ui.marketing.page-sections.hero-sections-3');
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-4', 'tailwind.ui.marketing.page-sections.hero-sections-4');
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-5', 'tailwind.ui.marketing.page-sections.hero-sections-5');
+Route::view('/tailwind/ui/marketing/page-sections/hero-sections-6', 'tailwind.ui.marketing.page-sections.hero-sections-6');
+
+Route::view('/tailwind/ui/marketing/page-sections/feature-sections', 'tailwind.ui.marketing.page-sections.feature-sections');
+Route::view('/tailwind/ui/marketing/page-sections/cta-sections', 'tailwind.ui.marketing.page-sections.cta-sections');
+Route::view('/tailwind/ui/marketing/page-sections/pricing-sections', 'tailwind.ui.marketing.page-sections.pricing-sections');
+Route::view('/tailwind/ui/marketing/page-sections/faqs-sections', 'tailwind.ui.marketing.page-sections.faqs-sections');
+Route::view('/tailwind/ui/marketing/page-sections/newsletter-sections', 'tailwind.ui.marketing.page-sections.newsletter-sections');
+Route::view('/tailwind/ui/marketing/page-sections/stats', 'tailwind.ui.marketing.page-sections.stats');
+Route::view('/tailwind/ui/marketing/page-sections/testimonials', 'tailwind.ui.marketing.page-sections.testimonials');
+Route::view('/tailwind/ui/marketing/page-sections/footers', 'tailwind.ui.marketing.page-sections.footers');
+Route::view('/tailwind/ui/marketing/page-sections/logo-clouds', 'tailwind.ui.marketing.page-sections.logo-clouds');
+Route::view('/tailwind/ui/marketing/page-sections/blog-sections', 'tailwind.ui.marketing.page-sections.blog-sections');
+Route::view('/tailwind/ui/marketing/page-sections/contact-sections', 'tailwind.ui.marketing.page-sections.contact-sections');
+Route::view('/tailwind/ui/marketing/page-sections/content-sections', 'tailwind.ui.marketing.page-sections.content-sections');
+
+Route::view('/tailwind/ui/marketing/elements/banners/floating-at-bottom', 'tailwind.ui.marketing.elements.banners.floating-at-bottom');
+Route::view('/tailwind/ui/marketing/elements/banners/header-banner', 'tailwind.ui.marketing.elements.banners.header-banner');
+Route::view('/tailwind/ui/marketing/elements/banners/header-centered', 'tailwind.ui.marketing.elements.banners.header-centered');
+Route::view('/tailwind/ui/marketing/elements/banners/sticky-footer', 'tailwind.ui.marketing.elements.banners.sticky-footer');
+Route::view('/tailwind/ui/marketing/elements/flyout-menus', 'tailwind.ui.marketing.elements.flyout-menus');
+Route::view('/tailwind/ui/marketing/elements/headers/header-1', 'tailwind.ui.marketing.elements.headers.header-1');
+Route::view('/tailwind/ui/marketing/elements/headers/header-2', 'tailwind.ui.marketing.elements.headers.header-2');
+Route::view('/tailwind/ui/marketing/elements/headers/header-3', 'tailwind.ui.marketing.elements.headers.header-3');
+Route::view('/tailwind/ui/marketing/elements/headers/header-4', 'tailwind.ui.marketing.elements.headers.header-4');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
