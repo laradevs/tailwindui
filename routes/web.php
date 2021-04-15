@@ -105,6 +105,3 @@ Route::view('/tailwind/ui/marketing/elements/headers/header-2', 'tailwind.ui.mar
 Route::view('/tailwind/ui/marketing/elements/headers/header-3', 'tailwind.ui.marketing.elements.headers.header-3');
 Route::view('/tailwind/ui/marketing/elements/headers/header-4', 'tailwind.ui.marketing.elements.headers.header-4');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
